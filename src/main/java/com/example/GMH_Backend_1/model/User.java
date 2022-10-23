@@ -2,6 +2,7 @@ package com.example.GMH_Backend_1.model;
 
 public class User {
 
+    private int userID;
     private String name;
     private String address;
     private int age;
@@ -41,6 +42,14 @@ public class User {
 
     public String getProfilePicUrl() {
         return profilePicUrl;
+    }
+
+    public int getUserID() {
+        return userID;
+    }
+
+    public void setUserID(int userID) {
+        this.userID = userID;
     }
 
     public void setProfilePicUrl(String profilePicUrl) {
